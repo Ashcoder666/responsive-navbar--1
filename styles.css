@@ -1,0 +1,58 @@
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+.nav-link{
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+}
+.title{
+    margin-left: 10px;
+    
+}
+.nav-link a{
+    padding-right: 25px;
+}
+.toggle{
+    display: none;
+}
+
+
+
+@media  (max-width:450px) {
+    .nav{
+    flex-direction: column;
+      
+    }
+    .title{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: first baseline;
+    }
+    .toggle{
+
+        display: flex;
+        align-self: center;
+        margin-left: 150px;
+      
+        
+    }
+    .nav-link{
+        display: none;
+      
+      
+    }
+    .nav-link a{
+        padding-top: 10px;
+    }
+    .Navbar__ToggleShow {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+      }
+        
+}
